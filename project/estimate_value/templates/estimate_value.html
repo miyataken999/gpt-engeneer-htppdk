@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Estimate the Value of Your Harry Winston Piece</title>
+</head>
+<body>
+    <h1>Estimate the Value of Your Harry Winston Piece</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
